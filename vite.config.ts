@@ -19,6 +19,7 @@ export default defineConfig({
         'vue-router',
         'pinia',
         '@vueuse/core',
+        '@vueuse/head',
         'vitest',
       ],
       dts: 'src/auto-imports.d.ts',
