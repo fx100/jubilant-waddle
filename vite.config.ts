@@ -22,9 +22,14 @@ export default defineConfig({
         '@vueuse/head',
         'vitest',
       ],
-      dts: 'src/auto-imports.d.ts',
       dirs: ['src/composables', 'src/store'],
+      dts: 'src/auto-imports.d.ts',
       vueTemplate: true,
+      eslintrc: {
+        enabled: true,
+        filepath: './.eslintrc-auto-import.json',
+        globalsPropValue: 'readonly',
+      },
     }),
     components({
       dts: 'src/components.d.ts',
