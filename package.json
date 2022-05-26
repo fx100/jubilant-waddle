@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^8.5.0",
+    "@vueuse/head": "^0.7.6",
     "lodash-es": "^4.17.21",
     "pinia": "^2.0.14",
     "vue": "^3.2.36",
